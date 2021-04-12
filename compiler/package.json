@@ -1,0 +1,16 @@
+{
+  "name": "node-compiler",
+  "version": "1.0.0",
+  "description": "JS compiler",
+  "main": "index.js",
+  "scripts": {
+    "compile": "nodemon index.js -q"
+  },
+  "author": "rajesh",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "nodemon": "^2.0.4",
+    "pipe": "^1.1.0"
+  }
+}

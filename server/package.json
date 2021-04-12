@@ -1,0 +1,13 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node httpserver.js",
+    "dev": "nodemon httpserver.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

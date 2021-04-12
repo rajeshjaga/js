@@ -1,0 +1,13 @@
+@use './main';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Sofia pro", sans-serif;
+  min-height: 100vh;
+}
+h2 {
+  color: #662;
+}

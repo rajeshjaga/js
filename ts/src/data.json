@@ -1,0 +1,64 @@
+{
+    "results": [{
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "عباس",
+            "last": "یاسمی"
+        },
+        "location": {
+            "street": {
+                "number": 3750,
+                "name": "میدان توحید"
+            },
+            "city": "رشت",
+            "state": "تهران",
+            "country": "Iran",
+            "postcode": 46463,
+            "coordinates": {
+                "latitude": "30.3098",
+                "longitude": "-168.2419"
+            },
+            "timezone": {
+                "offset": "-7:00",
+                "description": "Mountain Time (US & Canada)"
+            }
+        },
+        "email": "aabs.ysmy@example.com",
+        "login": {
+            "uuid": "9f35b636-13dd-4a71-944f-47bff63c3a59",
+            "username": "crazywolf376",
+            "password": "dreams",
+            "salt": "fn31NEgw",
+            "md5": "c8b9f6beb799302cadd870461f94c9b6",
+            "sha1": "4b8faacc36d7c604922d5697a15c4eb0e78f3471",
+            "sha256": "011408a7cb86d221fb411561abe299b9e1b76a76de3e54c4d634ed2e252747ac"
+        },
+        "dob": {
+            "date": "1969-10-11T17:22:27.177Z",
+            "age": 51
+        },
+        "registered": {
+            "date": "2014-11-16T14:33:24.033Z",
+            "age": 6
+        },
+        "phone": "094-28263509",
+        "cell": "0999-413-1411",
+        "id": {
+            "name": "",
+            "value": null
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/98.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/98.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/98.jpg"
+        },
+        "nat": "IR"
+    }],
+    "info": {
+        "seed": "e73757ee6c24c1f9",
+        "results": 1,
+        "page": 1,
+        "version": "1.3"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "newts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "type": "tsc",
+    "compile": "node index",
+    "compile-watch": "nodemon index -q",
+    "watch": "npm-run-all -p type compile-watch ",
+    "build": "npm-run-all type compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.6",
+    "npm-run-all": "^4.1.5"
+  }
+}

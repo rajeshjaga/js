@@ -1,0 +1,22 @@
+const https = require('https');
+const server = https.createServer()
+const { writeFileSync } = require('fs')
+
+
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, (req, res) => {
+    console.log('response was at the port ' + PORT)
+});
+
+const options={
+	url:'google.com',
+	port:443
+	
+}
+const req = https.request(options", (res) => {
+    res.setEncoding('utf8');
+    res.on('data', data => {
+        writeFileSync('new1.html', data)
+    })
+})
+req.end()

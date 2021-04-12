@@ -1,0 +1,58 @@
+9tLnVzL2NsaWVudC81LjAuMjYyMTMuMDYwMi9ab29tSW5zdGFsbGVyWFAuZXhlWiZodHRwczovL3pvb20udXMvY2xpZW50L2xhdGVzdC9ab29tLnBrZ2I5aHR0cHM6Ly96b29tLnVzL2NsaWVudC8zLjYuMTA4MjYuMTEwMS96b29tdXNJbnN0YWxsZXIucGtnajlodHRwczovL3pvb20udXMvY2xpZW50LzQuMS4zNTM3NC4xMjE3L3pvb211c0luc3RhbGxlci5wa2dyOWh0dHBzOi8vem9vbS51cy9jbGllbnQvNC4xLjM1Mzc0LjEyMTcvem9vbXVzSW5zdGFsbGVyLnBrZ3pDaHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPXVzLnpvb20udmlkZW9tZWV0aW5nc4IBJmh0dHBzOi8vem9vbS51cy9jbGllbnQvbGF0ZXN0L3pvb20uYXBrigEwaHR0cHM6Ly96b29tLnVzL2NsaWVudC80LjUuNTY5OS4xMDI3L3pvb201LjAuYXBrKt8BCPeC3MHWLhoHem9vbS51cyIEam9pbirGAQoYWXdGMFF0Q0RTWEdmcTUvQmpJVk9WZz09EOvPwI3jAjIAagRqb2lucAB6DzAuOTIuMTEyMjcuMDkyOYIBAIoBYWJjXzE1Q3ltTy1JOF9naTBTcTVNdGpDQmQ0TjJXYTlsbHBDa1N1bXVMR1NsMVl1OXhLNWZjc0pCOUItNzQ4UktrLUxHY25PVERGcGdmWmVRLmg1Vm5RUkFlNTBhUzdvMTeSASBjZWE1ODNiMWQ4ZGU0OTU4OTk3Y2M5M2U3ZDZkYmM5Yg==";
+(function () {
+var js = (JSON.parse("{\"js\":[\"launch-meeting/meeting.12922c0296925cd0e6c1.js\"],\"css\":[]}").js || [])[0];
+if (js) {
+var domains = window.zoomDomains[0];
+loadJS(domains[0], js);
+var next = domains[1];
+next && setTimeout(function() { !document.getElementById('zoom-ui-frame') && loadJS(next, js); }, 5000);
+}
+function loadJS(domain, url) {
+var el = document.createElement('script');
+var src = domain + "/fe-static/" + url;
+el.setAttribute("src", src);
+document.body.appendChild(el);
+}
+})();
+</script>
+<style>
+.ada-embed-drawer__iframe-container{
+max-height: 550px !important;
+max-width: 330px !important;
+margin: 10px 10px 10px 10px !important;
+}
+</style>
+<script nonce="ixLSTqv3SWu5_-g4jWGK8Q" type="text/javascript">
+window.adaSettings = {
+authCallback: function(callback) {
+var isIE = false;
+if (isIE) {
+$.ajax({
+type: "GET",
+url: "/zendesk/chat_jwt",
+dataType: 'text',
+success: function(response) {
+callback(response);
+}
+});
+} else {
+fetch("/zendesk/chat_jwt").then(function(res) {
+res.text().then(function(jwt){
+callback(jwt);
+});
+});
+}
+},
+hideMask: true,
+crossWindowPersistence: {enabled: true,domain: ".zoom.us"},
+language: "en",
+metaFields: {
+support_chat: true,
+group: "support",
+country: "in"
+}
+}
+</script>
+<script nonce="ixLSTqv3SWu5_-g4jWGK8Q" async id="__ada" data-handle="zoom" src="https://static.ada.support/embed.js"></script>
+</body>
+</html>

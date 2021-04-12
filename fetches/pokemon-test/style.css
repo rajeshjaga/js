@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  letter-spacing: 1px;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background: #eeffee;
+}
+h1 {
+  padding: 1.5rem 2.5rem;
+  color: rgb(224, 28, 28);
+}
+h1 span {
+  padding: 0;
+  color: rgb(52, 52, 255);
+}
+section {
+  padding: 2rem 3rem;
+}
+
+.card {
+  text-align: center;
+  height: auto;
+  width: 300px;
+  padding: 20px 30px;
+  background: #fcfcfc;
+  filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.2));
+  border-radius: 15px;
+}
+.card h1 {
+  text-transform: capitalize;
+}
+.card p {
+  display: inline;
+  padding: 1px 5px;
+  border-radius: 50px;
+  text-transform: capitalize;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+}
