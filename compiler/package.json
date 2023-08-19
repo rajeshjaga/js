@@ -9,7 +9,7 @@
   "author": "rajesh",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "^2.26.12",
+    "browser-sync": "^2.27.10",
     "nodemon": "^2.0.4",
     "pipe": "^1.1.0"
   }
